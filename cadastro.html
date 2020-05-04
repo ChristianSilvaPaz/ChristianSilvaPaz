@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cadastro.css" rel="stylesheet" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">Cadastro</div>
+    <div id="link">Link para os Jogos
+        <div id="link1"><a href="jogo1.html">Mortal Kombat X</a></div>
+        <div id="link2"><a href="jogo2.html">Grand Theft Auto V</a></div>
+        <div id="link3"><a href="jogo3.html">Red Dead Redemption 2</a></div>
+        <div id="link4"><a href="jogo4.html">Forza Horizon 4</a></div>
+    </div>
+    <div id="content">
+        <div id="content1">
+            <form method="post" action="cadastro.html"></form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"><br><br>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome"><br><br>
+                <label for="dn">Data nascimento:</label>
+                <input type="date" name="dn" id="dn" placeholder="dd/mm/aaaa"></label><br><br>
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="masculino" class="sexo">Masculino
+                <input type="radio" name="sexo" value="feminino" class="sexo">Feminino<br><br>
+                <label for="nome">Email:</label>
+                <input type="text" name="email" id="email" placeholder="seuemail@email.com"><br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="number" name="telefone" id="telefone" placeholder="(xx)xxxx-xxxx">
+        </div>
+        <div id="content2">
+            <form method="POST" action="cadastro.html"></form>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="end"><br><br>
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="num"><br><br>
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+	                <option value="AL">Alagoas</option>
+	                <option value="AP">Amapá</option>
+	                <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+	                <option value="CE">Ceará</option>
+	                <option value="DF">Distrito Federal</option>
+                	<option value="ES">Espírito Santo</option>
+	                <option value="GO">Goiás</option>
+	                <option value="MA">Maranhão</option>
+	                <option value="MT">Mato Grosso</option>
+	                <option value="MS">Mato Grosso do Sul</option>
+	                <option value="MG">Minas Gerais</option>
+	                <option value="PA">Pará</option>
+	                <option value="PB">Paraíba</option>
+	                <option value="PR">Paraná</option>
+	                <option value="PE">Pernambuco</option>
+	                <option value="PI">Piauí</option>
+	                <option value="RJ">Rio de Janeiro</option>
+	                <option value="RN">Rio Grande do Norte</option>
+	                <option value="RS">Rio Grande do Sul</option>
+	                <option value="RO">Rondônia</option>
+	                <option value="RR">Roraima</option>
+	                <option value="SC">Santa Catarina</option>
+                	<option value="SP">São Paulo</option>
+	                <option value="SE">Sergipe</option>
+	                <option value="TO">Tocantins</option>
+                </select><br><br>
+                <label for="login">Login:</label>
+                <input type="text" name="login" id="login"><br><br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha"><br><br>
+                <input type="submit" value="Enviar" class="enviar">
+        </div>
+    </div>
+    <div id="footer">                
+        <div id="cad">
+            <a href="cadastro.html">&gt;&gt;Cadastre-se</a>
+        </div>
+        <div id="fale">
+            <a href="fale.html">&gt;&gt;Fale Conosco</a>
+        </div>
+        <div id="face">
+            <a href="https://pt-br.facebook.com/" target="blank">&gt;&gt;Facebook</a>
+        </div>
+    </div>
+</body>
+</html>

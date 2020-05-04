@@ -1,0 +1,71 @@
+* {padding:0; 
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0}
+
+a{color: white;}
+
+#header{height: 50px; 
+        background-color: #8a918d;
+        text-align: center;
+        padding-top: 40px; margin-bottom: 10px;
+        font-size: 30px; font-weight: bold;}
+
+#link{width: 250px; height: 430px;
+      padding-top: 15px;
+      background-color: #424242;
+      text-align: center; font-size: 20px; font-weight: bold; color: white;
+      position: absolute;}
+
+#link1{width: 200px; height: 30px;
+        padding-top: 10px;
+        border-style: solid; border-color: white; border-width: thin;
+        font-size: 15px;
+        margin-top: 10px; margin-left: 20px;}
+ #link2{width: 200px; height: 30px;
+        padding-top: 10px;
+        border-style: solid; border-color: white; border-width: thin;
+        font-size: 15px;
+        margin-left: 20px;}
+ #link3{width: 200px; height: 30px;
+        padding-top: 10px;
+        border-style: solid; border-color: white; border-width: thin;
+        font-size: 15px;
+        margin-left: 20px;}
+ #link4{width: 200px; height: 30px;
+        padding-top: 10px;
+        border-style: solid; border-color: white; border-width: thin;
+        font-size: 15px;
+        margin-left: 20px;}
+#content{margin-left: 250px;
+    height: 415px;
+    background-color: #8a918d;
+    padding-left: 20px; padding-top: 30px;}
+
+label{width: 150px;
+      display: inline-block;}
+
+input{width: 295px;}
+input.enviar{width: 90px; background-color: black; color: white; 
+             border-color: white; 
+             border-width: 1px; border-top-style: solid; 
+             border-left-style: solid;}
+
+input.sexo{width: 80px;}
+
+#content1{height: auto;
+    background-color: #8a918d;
+    position: relative;
+    float: left;}
+          
+
+#content2{height: auto;
+    background-color: #8a918d;
+    position: absolute;
+    margin-left: 550px;} 
+
+#footer{background-color: #373b38; height: 50px; margin-top: 10px; padding-top: 20px; padding-left: 20px;}
+#cad{position: relative; float: left;}
+#fale{position: absolute; margin-left: 150px;}
+#face{position: absolute; margin-left: 300px;}
