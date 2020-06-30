@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .navbar{
+			background-color: #424242;
+			color: #FFF;
+			font-size: 1.2em;
+		}
+		.navbar-nav .active a, .navbar-nav a:focus, .navbar-nav a:hover{
+			color: #FFF;
+			background-color: #424242;
+		}
+		.navbar-nav a{
+			color: grey;
+        }
+        .container{
+			margin: 4% auto;
+		}
+		.icone{
+			max-width: 200px;
+			margin: auto;
+		}
+		footer{
+			background-color: #424242;
+			color: #FFF;
+			padding: 3%;
+		}
+		.fa{
+			padding: 10px;
+			font-size:  1.2em;
+			color: #FFF;
+		}
+		.fa:hover{
+			color: #d5d5dd;
+			text-decoration: none;
+		}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#minha_nav_bar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="minha_nav_bar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="preco.html">Preços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Jogos
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Jogo1.html">Mortal Kombat</a>
+                            <a class="dropdown-item" href="Jogo2.html">Grand Theft Auto V</a>
+                            <a class="dropdown-item" href="Jogo3.html">Red Dead Redemption 2</a>
+                        </li>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cadastro.html">Cadastre-se</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+    <div class="container">
+        <h1>Preços</h1>
+        <div class="row">
+          <div class="col-sm">
+            <table class="table table-bordered table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">NOME</th>
+                    <th scope="col">DATA DE LANÇAMENTO</th>
+                    <th scope="col">ESTILO</th>
+                    <th scope="col">FABRICANTE</th>
+                    <th scope="col" colspan="3">PLATAFORMAS</th>
+                    <th scope="col">PREÇO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mortal Kombat X</td>
+                    <td>07/04/2015</td>
+                    <td>Lutas</td>
+                    <td>NetherRealm Studios</td>
+                    <td>PlayStation 4</td>
+                    <td>Android</td>
+                    <td>Xbox One</td>
+                    <td>R$ 79,99 R$ 129,99</td>
+                  </tr>
+                  <tr>
+                    <td>Grand Theft Auto V</td>
+                    <td>17/09/2013</td>
+                    <td>Ação e Aventura</td>
+                    <td>Rockstar North</td>
+                    <td>Microsoft Windows</td>
+                    <td>PlayStation 4</td>
+                    <td>Xbox One</td>
+                    <td>R$ 106,99 R$ 159,99</td>
+                  </tr>
+                  <tr>
+                    <td>Red Dead Redemption 2</td>
+                    <td>26/10/2018</td>
+                    <td>Ação e Aventura</td>
+                    <td>Rockstar Games</td>
+                    <td>Microsoft Windows</td>
+                    <td>Playstation 4</td>
+                    <td>Xbox One</td>
+                    <td>R$ 159,99 R$ 259,99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                      <td colspan="8">Valores consultados em 22/06/2020</td>
+                    </tr>
+                  </tfoot>
+              </table>
+          </div>
+        </div>
+        <h5>Tabela 1: Comparativo Jogos</h5>
+      </div>
+      <footer class="container-fluid text-center">
+		<div class="row">
+            <div class="col-sm-4">
+                <a href="fale.html" class="text-white bg-dark">Fale Conosco</a>
+            </div>
+			<div class="col-sm-4">
+				<h3>Conecte</h3>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <h3>Contato</h3>
+                <br>              
+                <h3>0800-000-000</h3>
+            </div>
+		</div>
+    </footer>
+</body>
+</html>
